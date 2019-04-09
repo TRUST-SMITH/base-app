@@ -1,0 +1,15 @@
+.right_sidebar_container{
+  float:right;
+  width:200px;
+  height:1000px;
+  border:solid 1px #aaaaaa;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  color:#333333;
+}
+.right_sidebar_menu {
+}
+.right_sidebar_menu li{
+  padding-left: 5px;
+  border-bottom:solid 1px #aaaaaa;
+}

@@ -1,0 +1,51 @@
+<div>
+  <div class="header_container" style="display: flex;justify-content: space-between;height:60px;width:100%; background-color:#1111DD; class="header_container";">
+    <div class="header_left_container">
+      <div class="header_logo"style="float:left;margin:7.5px;height:45px;width:45px;border-radius:100px;text-align:center;line-height:50px;">
+        <a href="/"><%= image_tag('drone_image.jpg', :size=>"45x45") %></a>
+      </div>
+      <div class="header_name"style="float:left;margin-left:5px;">
+        <div style="margin:5px;text-align:center;line-height:50px;">
+          TRUST SMITH &amp; COMPANY
+        </div>
+      </div>
+    </div>
+    <div class="header_center_container">
+      <div class=""style="float:left;margin-left:5px;">
+        <div style="margin:5px;text-align:center;line-height:50px;">
+          CENTER
+        </div>
+      </div>
+    </div>
+    <div class="header_right_container">
+      <div class="header_menu_container">
+        <div onclick="obj=document.getElementById('header_menu').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;">
+            <div class="menu_btn" style="margin:5px;height:50px;width:50px;border-radius:100px;background-color:#3333ff;text-align:center;line-height:50px;">
+              会
+            </div>
+          </a>
+        </div>
+        <div class="header_menu" id="header_menu" style="display:none;clear:both;">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/algorithm-products">Products</a>
+            </li>
+            <li>
+              <a href="/contact" target="_self">Contact</a>
+            </li>
+            <li>
+              <a href="/hr" target="_self">Join us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<div></div>

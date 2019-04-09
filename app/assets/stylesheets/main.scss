@@ -1,0 +1,15 @@
+.main_container{
+  float:left;
+  width : -webkit-calc(100% - 400px) ;
+  width : calc(100% - 400px) ;
+  background-color:#EEEEEE;
+  color:#333333;
+}
+.main_menu {
+  background-color:#6594ff;
+}
+.main_menu li{
+  padding-left: 5px;
+  border:solid 1px #aaaaaa;
+  border-collapse: collapse;
+}
